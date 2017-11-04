@@ -2,4 +2,14 @@
     <string name="app_name">Find A Doctor</string>
     <string name="action_settings">Settings</string>
 
+    <string name="about_us_title">Jigme Dorji Wangchuck National Referral Hospital, Thimphu.</string>
+    <string name="about_thimphu">The JDWNRH is the main hospital in Bhutan, located in the capital of Bhutan,
+        Thimphu. It was established in 1972, and provides free basic medical treatment as well as advanced
+        surgeries and emergency services to citizens from all over the country. It provides the most sophisticated
+        health evaluation and management services in the country.</string>
+    <string name="App_heading">Find A Doctor App</string>
+    <string name="about_App">This Android App Find A Doctor is to check the availability of doctors in the hospital
+        especially in the JDWNRH. This App provides platform to avail the services facilitated by doctors and their
+        availability in the hospital if users have installed this app.
+    </string>
 </resources>
