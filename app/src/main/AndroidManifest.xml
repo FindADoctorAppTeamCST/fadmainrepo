@@ -32,7 +32,8 @@
             -->
         </activity>
         <activity android:name=".AboutUs" />
-        <activity android:name=".Feedback"></activity>
+        <activity android:name=".Feedback" />
+        <activity android:name=".RateUs"></activity>
     </application>
 
 </manifest>
