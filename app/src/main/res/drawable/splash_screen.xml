@@ -6,7 +6,7 @@
         <item>
             <bitmap
                 android:gravity="center"
-                android:src="@drawable/jdwnrh_logo"/>
+                android:src="@drawable/barimage"/>
         </item>
     </layer-list>
 </selector>
