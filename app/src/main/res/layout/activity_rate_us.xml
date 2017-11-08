@@ -14,6 +14,7 @@
         android:id="@+id/idratingBar"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
+
         android:stepSize="0.5"
         android:numStars="5"
         android:rating="2.5"/>
