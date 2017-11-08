@@ -52,8 +52,8 @@
             android:layout_marginRight="5dp">
 
             <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal">
 
 
@@ -77,6 +77,15 @@
                     android:layout_height="@dimen/gridImageSize"
                     android:padding="10dp"
                     app:srcCompat="@mipmap/dental" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
 
 
             </TableRow>
