@@ -6,4 +6,72 @@
     android:layout_height="match_parent"
     tools:context="bt.gov.jdwnrh.www.findadoctor.doc_login">
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="157dp"
+        android:layout_height="133dp"
+        app:srcCompat="@mipmap/doctor_login"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="38dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="56dp"
+        android:layout_height="58dp"
+        app:srcCompat="@mipmap/jdwnrh_logo"
+        tools:layout_editor_absoluteY="16dp"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/line"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="126dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="314dp"
+        android:layout_height="286dp"
+        app:srcCompat="@mipmap/login_box"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="209dp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="329dp" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:allowUndo="false"
+        android:color="#ffffff"
+        android:ems="10"
+        android:hint="ID"
+        android:inputType="textEmailAddress"
+        android:radius="10dp"
+        android:selectAllOnFocus="false"
+        android:shape="rectangle"
+
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="286dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="71dp"
+        android:layout_height="35dp"
+        android:text="login"
+        android:background="#2092EA"
+        tools:layout_editor_absoluteX="157dp"
+        tools:layout_editor_absoluteY="386dp" />
+
 </android.support.constraint.ConstraintLayout>
