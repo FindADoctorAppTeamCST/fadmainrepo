@@ -14,7 +14,7 @@
         android:id="@+id/news"
         android:visible="true"
         android:title="@string/notif"
-        android:icon="@android:drawable/ic_dialog_info"
+        android:icon="@android:drawable/ic_menu_info_details"
         app:showAsAction="always"
         />
 
