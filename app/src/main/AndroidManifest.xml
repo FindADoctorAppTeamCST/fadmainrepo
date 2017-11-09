@@ -31,7 +31,8 @@
             </intent-filter>
             -->
         </activity>
-        <activity android:name=".doc_login"></activity>
+        <activity android:name=".doc_login" />
+        <activity android:name=".Notification"></activity>
     </application>
 
 </manifest>

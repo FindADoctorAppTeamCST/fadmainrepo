@@ -71,8 +71,8 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="88dp"
-        android:layout_height="48dp"
+        android:layout_width="94dp"
+        android:layout_height="43dp"
         android:text="login"
         android:background="#2092EA"
         tools:layout_editor_absoluteY="393dp"
