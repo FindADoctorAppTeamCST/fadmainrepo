@@ -11,6 +11,14 @@
         app:showAsAction="never" />
 
     <item
+        android:id="@+id/news"
+        android:visible="true"
+        android:title="@string/notif"
+        android:icon="@android:drawable/ic_dialog_info"
+        app:showAsAction="always"
+        />
+
+    <item
         android:id="@+id/help"
         android:enabled="true"
         android:orderInCategory="101"
