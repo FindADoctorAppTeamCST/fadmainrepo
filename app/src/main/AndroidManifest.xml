@@ -31,11 +31,13 @@
             </intent-filter>
             -->
         </activity>
+
         <activity android:name=".AboutUs" />
         <activity android:name=".Feedback" />
         <activity android:name=".RateUs"></activity>
         <activity android:name=".Help"></activity>
         <activity android:name=".doc_login"></activity>
+        <activity android:name=".Notification"></activity>
 
     </application>
 
