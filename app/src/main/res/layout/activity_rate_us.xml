@@ -4,21 +4,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="bt.gov.jdwnrh.www.findadoctor.Feedback">
 
-    <EditText
-        android:layout_width="match_parent"
+    tools:context="bt.gov.jdwnrh.www.findadoctor.RateUs">
+
+
+    <RatingBar
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/ideditTxt"
-        />
+        android:id="@+id/idratingBar"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+
+        android:stepSize="0.5"
+        android:numStars="5"
+        android:rating="2.5"/>
+
+
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/ideditTxt"
+        android:layout_below="@+id/idratingBar"
         android:layout_centerHorizontal="true"
-
-        android:onClick="SubmitFeedback"
-        android:text="Submit" />
-
+        android:onClick="onBtnClick"
+        android:text="Rate Us" />
 </RelativeLayout>
