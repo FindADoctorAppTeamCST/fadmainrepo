@@ -26,8 +26,8 @@ public class setting extends AppCompatActivity {
         bt1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(setting.this,feature.class);
-                startActivity(intent);
+                Intent intentFeat=new Intent(setting.this,feature.class);
+                startActivity(intentFeat);
             }
         });
     }
