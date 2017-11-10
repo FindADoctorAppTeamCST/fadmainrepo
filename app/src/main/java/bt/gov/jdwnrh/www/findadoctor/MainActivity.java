@@ -47,6 +47,7 @@ public class   MainActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.news) {
+            startActivity(new Intent(getApplication(), Notification.class));
             return true;
         }
 

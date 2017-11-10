@@ -58,6 +58,7 @@
     <string name="setting_feature">Setting feature</string>
     <string name="login_button">This provides an Admin and doctors to enter their credentials to update their status.</string>
     <string name="hosp_image_desc">Hospital Image</string>
+    <string name="enter_feedback">Enter Your Feedback / Complaint Here</string>
 
 
 </resources>
