@@ -33,7 +33,10 @@
         </activity>
         <activity android:name=".AboutUs" />
         <activity android:name=".Feedback" />
-        <activity android:name=".Help"></activity>
+        <activity android:name=".Help" />
+        <activity android:name=".setting" />
+        <activity android:name=".feature" />
+        <activity android:name=".More"></activity>
     </application>
 
 </manifest>
