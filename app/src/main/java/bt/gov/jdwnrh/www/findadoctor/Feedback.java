@@ -20,7 +20,7 @@ public class Feedback extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_feedback);
         context=this;
-        editText=(EditText) findViewById(R.id.ideditTxt);
+        editText=(EditText) findViewById(R.id.feedbackSpace);
         editText.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {

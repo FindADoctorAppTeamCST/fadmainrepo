@@ -4,11 +4,12 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/jdwnrh_logo"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/jdwnrh_logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
         <activity
             android:name=".SplashActivity"
             android:theme="@style/SplashTheme">
@@ -18,10 +19,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme.NoActionBar"
+            android:icon="@drawable/jdwnrh_logo">
 
             <!--
                 <intent-filter>
@@ -31,12 +34,43 @@
             </intent-filter>
             -->
         </activity>
-        <activity android:name=".AboutUs" />
-        <activity android:name=".Feedback" />
-        <activity android:name=".RateUs" />
-        <activity android:name=".Help" />
-        <activity android:name=".doc_login" />
-        <activity android:name=".Notification" />
-    </application>
 
+        <activity android:name=".Help"></activity>
+        <activity android:name=".setting" />
+        <activity android:name=".feature" />
+        <activity android:name=".More"></activity>
+
+        <activity android:name=".AboutUs"
+            android:label="About"
+            android:icon="@android:drawable/ic_dialog_info">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name=".Feedback"
+            android:label="Feedback"
+            android:icon="@android:drawable/ic_menu_edit">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".RateUs"
+            android:label="@string/rate_app"
+            android:icon="@android:drawable/star_big_off">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".doc_login"
+            android:label="@string/login"
+            android:icon="@android:drawable/ic_lock_lock">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
 </manifest>

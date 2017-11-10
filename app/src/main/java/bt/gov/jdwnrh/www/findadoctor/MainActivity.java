@@ -10,12 +10,9 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class   MainActivity extends AppCompatActivity {
-
-
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -49,7 +46,39 @@ public class   MainActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
+        if (id == R.id.news) {
+            return true;
+        }
+
         if (id == R.id.login) {
+            startActivity(new Intent(getApplication(), doc_login.class));
+            return true;
+        }
+
+        if(id == R.id.about_us) {
+            startActivity(new Intent(getApplication(), AboutUs.class));
+            return true;
+        }
+
+        if(id == R.id.help) {
+            return true;
+        }
+
+        if(id == R.id.feedback) {
+            startActivity(new Intent(getApplication(), Feedback.class));
+            return true;
+        }
+
+        if(id == R.id.rate_app) {
+            startActivity(new Intent(getApplication(), RateUs.class));
+            return true;
+        }
+
+        if(id == R.id.share_app) {
+            return true;
+        }
+
+        if(id == R.id.more) {
             return true;
         }
 
