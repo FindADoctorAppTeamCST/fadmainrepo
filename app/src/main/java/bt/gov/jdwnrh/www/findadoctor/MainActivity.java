@@ -50,21 +50,21 @@ public class   MainActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
+        if (id == R.id.news) {
+            return true;
+        }
+
         if (id == R.id.login) {
             startActivity(new Intent(getApplication(), doc_login.class));
             return true;
         }
 
-        if(id == R.id.help) {
-            return true;
-        }
-
-        if(id == R.id.share_app) {
-            return true;
-        }
-
         if(id == R.id.about_us) {
             startActivity(new Intent(getApplication(), AboutUs.class));
+            return true;
+        }
+
+        if(id == R.id.help) {
             return true;
         }
 
@@ -75,6 +75,10 @@ public class   MainActivity extends AppCompatActivity {
 
         if(id == R.id.rate_app) {
             startActivity(new Intent(getApplication(), RateUs.class));
+            return true;
+        }
+
+        if(id == R.id.share_app) {
             return true;
         }
 
