@@ -23,7 +23,8 @@
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme.NoActionBar"
+            android:icon="@drawable/jdwnrh_logo">
 
             <!--
                 <intent-filter>
@@ -35,32 +36,38 @@
         </activity>
 
         <activity android:name=".AboutUs"
-            android:label="About">
+            android:label="About"
+            android:icon="@android:drawable/ic_dialog_info">
             <intent-filter>
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
 
         <activity android:name=".Feedback"
-            android:label="Feedback">
+            android:label="Feedback"
+            android:icon="@android:drawable/ic_menu_edit">
             <intent-filter>
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
 
         <activity android:name=".RateUs"
-            android:label="@string/rate_app">
+            android:label="@string/rate_app"
+            android:icon="@android:drawable/star_big_off">
             <intent-filter>
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
 
-        <activity android:name=".Help">
+        <activity android:name=".Help"
+            android:icon="@android:drawable/ic_menu_help"
+            android:label="@string/help">
 
         </activity>
 
         <activity android:name=".doc_login"
-            android:label="@string/login">
+            android:label="@string/login"
+            android:icon="@android:drawable/ic_lock_lock">
             <intent-filter>
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
