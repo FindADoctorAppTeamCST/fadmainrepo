@@ -32,7 +32,8 @@
             -->
         </activity>
         <activity android:name=".doc_login" />
-        <activity android:name=".Notification"></activity>
+        <activity android:name=".Notification" />
+        <activity android:name=".ShareApp"></activity>
     </application>
 
 </manifest>

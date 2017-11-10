@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="bt.gov.jdwnrh.www.findadoctor.ShareApp">
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="199dp"
+        android:layout_height="44dp"
+        android:background="@drawable/button"
+        android:text="Share on facebook"
+        android:topLeftRadius="50dp"
+        android:topRightRadius="50dp"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="159dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="66dp"
+        android:layout_height="58dp"
+        app:srcCompat="@mipmap/jdwnrh_logo"
+        tools:layout_editor_absoluteY="27dp"
+        tools:layout_editor_absoluteX="148dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Find A Doc App"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="92dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="61dp"
+        android:layout_height="45dp"
+        android:visibility="visible"
+        app:srcCompat="@mipmap/facebook"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="159dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="56dp"
+        android:layout_height="43dp"
+        app:srcCompat="@mipmap/google_plus"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="223dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="199dp"
+        android:layout_height="42dp"
+        android:background="@drawable/button1"
+        android:text="SHARE On google plus"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="223dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="43dp"
+        android:layout_height="46dp"
+        app:srcCompat="@mipmap/Message"
+        tools:layout_editor_absoluteY="284dp"
+        tools:layout_editor_absoluteX="63dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="198dp"
+        android:layout_height="43dp"
+        android:background="@drawable/button2"
+        android:text="share with message"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="284dp" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="41dp"
+        android:layout_height="40dp"
+        app:srcCompat="@mipmap/messenger"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="344dp" />
+
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="195dp"
+        android:layout_height="41dp"
+        android:background="@drawable/button3"
+        android:text="share on messenger"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="344dp" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="52dp"
+        android:layout_height="38dp"
+        app:srcCompat="@mipmap/Hangouts"
+        tools:layout_editor_absoluteY="403dp"
+        tools:layout_editor_absoluteX="59dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="194dp"
+        android:layout_height="39dp"
+        android:background="@drawable/button4"
+        android:text="share on hangouts"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="403dp" />
+
+</android.support.constraint.ConstraintLayout>
