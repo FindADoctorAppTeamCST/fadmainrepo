@@ -35,6 +35,14 @@
             -->
         </activity>
 
+
+
+
+        <activity android:name=".Help"></activity>
+        <activity android:name=".setting" />
+        <activity android:name=".feature" />
+        <activity android:name=".More"></activity>
+
         <activity android:name=".AboutUs"
             android:label="About"
             android:icon="@android:drawable/ic_dialog_info">
@@ -57,12 +65,6 @@
             <intent-filter>
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
-        </activity>
-
-        <activity android:name=".Help"
-            android:icon="@android:drawable/ic_menu_help"
-            android:label="@string/help">
-
         </activity>
 
         <activity android:name=".doc_login"
