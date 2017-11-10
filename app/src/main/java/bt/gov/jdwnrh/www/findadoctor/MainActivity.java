@@ -10,6 +10,7 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class   MainActivity extends AppCompatActivity {
 
@@ -50,6 +51,33 @@ public class   MainActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.login) {
+            return true;
+        }
+
+        if(id == R.id.help) {
+            return true;
+        }
+
+        if(id == R.id.share_app) {
+            return true;
+        }
+
+        if(id == R.id.about_us) {
+            startActivity(new Intent(getApplication(), AboutUs.class));
+            return true;
+        }
+
+        if(id == R.id.feedback) {
+            startActivity(new Intent(getApplication(), Feedback.class));
+            return true;
+        }
+
+        if(id == R.id.rate_app) {
+            startActivity(new Intent(getApplication(), RateUs.class));
+            return true;
+        }
+
+        if(id == R.id.more) {
             return true;
         }
 

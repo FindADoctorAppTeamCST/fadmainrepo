@@ -18,13 +18,14 @@
     <string name="lpsyc">Psychiatrist</string>
     <string name="lradi">Radiologist</string>
     <string name="lsurg">Surgoen</string>
+
     <string name="login">Log In</string>
     <string name="help">Help</string>
     <string name="notif">Notification</string>
-    <string name="more">More</string>
+    <string name="moreapps">More Apps</string>
     <string name="share_app">Share App</string>
-    <string name="rate_app">Rate Us</string>
-    <string name="about_us">About Us</string>
+    <string name="rate_app">Rate App</string>
+    <string name="about_us">About</string>
     <string name="feedback">Feedback</string>
 
     <string name="about_us_title">Jigme Dorji Wangchuck National Referral Hospital, Thimphu.</string>
@@ -42,5 +43,7 @@
     <string name="search_button">This button helps user to search the app entering doctors specialization or by name.</string>
 
     <string name="login_button">This provides an Admin and doctors to enter their credentials to update their status.</string>
+    <string name="hosp_image_desc">Hospital Image</string>
+
 
 </resources>
