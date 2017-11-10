@@ -51,6 +51,7 @@ public class   MainActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.login) {
+            startActivity(new Intent(getApplication(), doc_login.class));
             return true;
         }
 
