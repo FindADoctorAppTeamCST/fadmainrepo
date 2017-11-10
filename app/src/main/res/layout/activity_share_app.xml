@@ -9,29 +9,49 @@
     <Button
         android:id="@+id/button3"
         android:layout_width="199dp"
-        android:layout_height="44dp"
+        android:layout_height="48dp"
         android:background="@drawable/button"
         android:text="Share on facebook"
         android:topLeftRadius="50dp"
         android:topRightRadius="50dp"
-        tools:layout_editor_absoluteX="106dp"
-        tools:layout_editor_absoluteY="159dp" />
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="164dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.6" />
 
     <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="66dp"
+        android:layout_width="0dp"
         android:layout_height="58dp"
         app:srcCompat="@mipmap/jdwnrh_logo"
-        tools:layout_editor_absoluteY="27dp"
-        tools:layout_editor_absoluteX="148dp" />
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="12dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintRight_toRightOf="@+id/textView"
+        android:layout_marginTop="30dp"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="27dp"
+        app:layout_constraintLeft_toLeftOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Find A Doc App"
-        tools:layout_editor_absoluteX="131dp"
-        tools:layout_editor_absoluteY="92dp" />
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/button3"
+        android:layout_marginStart="11dp"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="50dp"
+        app:layout_constraintLeft_toRightOf="@+id/imageView8" />
 
     <ImageView
         android:id="@+id/imageView8"
@@ -39,76 +59,139 @@
         android:layout_height="45dp"
         android:visibility="visible"
         app:srcCompat="@mipmap/facebook"
-        tools:layout_editor_absoluteX="59dp"
-        tools:layout_editor_absoluteY="159dp" />
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="59dp"
+        app:layout_constraintBottom_toBottomOf="@+id/button4"
+        android:layout_marginTop="67dp"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="66dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView" />
 
     <ImageView
         android:id="@+id/imageView9"
-        android:layout_width="56dp"
+        android:layout_width="0dp"
         android:layout_height="43dp"
         app:srcCompat="@mipmap/google_plus"
-        tools:layout_editor_absoluteX="59dp"
-        tools:layout_editor_absoluteY="223dp" />
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView10"
+        app:layout_constraintRight_toRightOf="@+id/imageView8"
+        android:layout_marginTop="63dp"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="63dp"
+        app:layout_constraintLeft_toLeftOf="@+id/imageView8"
+        app:layout_constraintTop_toTopOf="@+id/button3" />
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="199dp"
-        android:layout_height="42dp"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
         android:background="@drawable/button1"
         android:text="SHARE On google plus"
-        tools:layout_editor_absoluteX="106dp"
-        tools:layout_editor_absoluteY="223dp" />
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/button3"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/button3"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/button3" />
 
     <ImageView
         android:id="@+id/imageView10"
-        android:layout_width="43dp"
+        android:layout_width="0dp"
         android:layout_height="46dp"
         app:srcCompat="@mipmap/Message"
-        tools:layout_editor_absoluteY="284dp"
-        tools:layout_editor_absoluteX="63dp" />
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="4dp"
+        app:layout_constraintBottom_toBottomOf="@+id/button7"
+        android:layout_marginEnd="5dp"
+        app:layout_constraintRight_toRightOf="@+id/imageView12"
+        android:layout_marginTop="59dp"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="59dp"
+        app:layout_constraintLeft_toLeftOf="@+id/imageView9"
+        app:layout_constraintTop_toTopOf="@+id/button4" />
 
     <Button
         android:id="@+id/button5"
-        android:layout_width="198dp"
-        android:layout_height="43dp"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
         android:background="@drawable/button2"
         android:text="share with message"
-        tools:layout_editor_absoluteX="106dp"
-        tools:layout_editor_absoluteY="284dp" />
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        android:layout_marginEnd="1dp"
+        app:layout_constraintRight_toRightOf="@+id/button4"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintTop_toTopOf="@+id/imageView10"
+        app:layout_constraintLeft_toRightOf="@+id/imageView10" />
 
     <ImageView
         android:id="@+id/imageView11"
-        android:layout_width="41dp"
-        android:layout_height="40dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         app:srcCompat="@mipmap/messenger"
-        tools:layout_editor_absoluteX="65dp"
-        tools:layout_editor_absoluteY="344dp" />
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/button7"
+        android:layout_marginEnd="5dp"
+        app:layout_constraintRight_toRightOf="@+id/imageView12"
+        android:layout_marginTop="12dp"
+        app:layout_constraintTop_toBottomOf="@+id/button5"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="7dp"
+        app:layout_constraintLeft_toLeftOf="@+id/imageView12" />
 
 
     <Button
         android:id="@+id/button7"
-        android:layout_width="195dp"
-        android:layout_height="41dp"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
         android:background="@drawable/button3"
         android:text="share on messenger"
-        tools:layout_editor_absoluteX="106dp"
-        tools:layout_editor_absoluteY="344dp" />
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/button8"
+        android:layout_marginEnd="3dp"
+        app:layout_constraintRight_toRightOf="@+id/button5"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="11dp"
+        app:layout_constraintLeft_toRightOf="@+id/imageView11" />
 
     <ImageView
         android:id="@+id/imageView12"
         android:layout_width="52dp"
-        android:layout_height="38dp"
+        android:layout_height="0dp"
         app:srcCompat="@mipmap/Hangouts"
-        tools:layout_editor_absoluteY="403dp"
-        tools:layout_editor_absoluteX="59dp" />
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="59dp"
+        app:layout_constraintBottom_toBottomOf="@+id/button8"
+        android:layout_marginTop="11dp"
+        app:layout_constraintTop_toBottomOf="@+id/button7"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
 
     <Button
         android:id="@+id/button8"
-        android:layout_width="194dp"
-        android:layout_height="39dp"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
         android:background="@drawable/button4"
         android:text="share on hangouts"
-        tools:layout_editor_absoluteX="106dp"
-        tools:layout_editor_absoluteY="403dp" />
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="@+id/button7"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="60dp"
+        app:layout_constraintLeft_toLeftOf="@+id/button7" />
 
 </android.support.constraint.ConstraintLayout>
