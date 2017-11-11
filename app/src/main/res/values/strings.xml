@@ -56,8 +56,14 @@
     <string name="tg">Help feature</string>
     <string name="next">NEXT</string>
     <string name="setting_feature">Setting feature</string>
+
     <string name="login_button">This provides an Admin and doctors to enter their credentials to update their status.</string>
     <string name="hosp_image_desc">Hospital Image</string>
 
+    <string name="cdapp">CDApp</string>
+    <string name="doctor_app">Doctor App</string>
+    <string name="queueapp">QueueApp</string>
+    <string name="related_apps_for_jdwnrh">Related Apps for JDWNRH</string>
+    <string name="mhgapp">mhGApp</string>
 
 </resources>
