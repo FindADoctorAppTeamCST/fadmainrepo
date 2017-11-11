@@ -40,18 +40,21 @@
 
 
     <string name="help_feature"> User Manual </string>
-    <string name="about_search">This button helps user to search the app entering doctors specialization or by name.</string>
+    <string name="about_search">This button helps user to search the doctor through their name or by their specialization.</string>
 
     <string name="about_login">Doctors need to enter their credentials to update their status.</string>
-    <string name="about_newsfeed">This feature provides information and alert the users about the latest outbreak of dieases and updates the important messages. </string>
+    <string name="about_newsfeed">This feature provides information and alert the users about the latest outbreak of diseases and
+        updates the important messages. </string>
 
-    <string name="about_setting">This feature contain list of options such as Login,Help,Share app,About us,Feedback and Rate us </string>
-    <string name="about_help">This feature provides user manual for the app users to giude them when they encounter the problems..</string>
-    <string name="about_shareApp">This section of setting is to suggest the users to share app to social media if it is found very useful and productive.</string>
+    <string name="about_setting">This feature contain list of options such as Login,About us,Help,Feedback,Rate us,Share app
+        and More Apps.</string>
+    <string name="about_help">This feature provides user manual for the app users to guide them when they encounter with the problems.</string>
+    <string name="about_shareApp">This section of setting is to suggest the users to share app to social media
+        if it is found very useful and productive.</string>
 
-    <string name="about_aboutFeature">This section of the setting is to make users know more about the app and their functionlity.</string>
+    <string name="about_aboutFeature">This section of the setting is to make users know more about the App and their functionality.</string>
     <string name="about_feedback"> This feature provides the platform for users to comments and give feedback for the betterment of the App.</string>
-    <string name="about_rateUs">This section is to rate the App according to the services facilated by the app to the users.</string>
+    <string name="about_rateUs">This section is to rate the App according to the services facilitated by the App to the users.</string>
     <string name="back">BACK</string>
     <string name="tg">Help feature</string>
     <string name="next">NEXT</string>

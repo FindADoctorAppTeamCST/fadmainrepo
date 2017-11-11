@@ -6,142 +6,104 @@
     android:layout_height="match_parent"
     tools:context="bt.gov.jdwnrh.www.findadoctor.feature">
 
-    <TextView
-        android:id="@+id/textView18"
+    <ScrollView
+        android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginBottom="20dp"
-        android:layout_marginEnd="33dp"
-        android:layout_marginStart="33dp"
-        android:layout_marginTop="16dp"
-        android:gravity="left"
-        android:text="About Us"
-        android:textSize="20dp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/textView19"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        tools:layout_constraintBottom_creator="1"
-        tools:layout_constraintLeft_creator="1"
-        tools:layout_constraintRight_creator="1"
-        tools:layout_constraintTop_creator="1"
-        android:layout_width="0dp" />
-
-    <TextView
-        android:id="@+id/textView19"
-        android:layout_width="0dp"
-        android:layout_height="44dp"
-        android:text="@string/about_aboutFeature"
-        android:textSize="16dp"
-        android:textStyle="italic"
-        android:gravity="left"
-        tools:layout_constraintTop_creator="1"
-        tools:layout_constraintRight_creator="1"
-        android:layout_marginStart="33dp"
-        android:layout_marginEnd="33dp"
-        app:layout_constraintRight_toRightOf="parent"
-        android:layout_marginTop="72dp"
-        tools:layout_constraintLeft_creator="1"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintHorizontal_bias="0.505" />
-
-    <TextView
-        android:id="@+id/textView20"
-        android:layout_width="0dp"
-        android:layout_height="35dp"
-        android:text="Feedback"
-        android:textSize="20dp"
-        android:textStyle="bold"
-        android:gravity="left"
         tools:layout_constraintTop_creator="1"
         tools:layout_constraintRight_creator="1"
         tools:layout_constraintBottom_creator="1"
-        android:layout_marginStart="33dp"
-        android:layout_marginEnd="33dp"
-        app:layout_constraintRight_toRightOf="parent"
-        android:layout_marginTop="79dp"
-        tools:layout_constraintLeft_creator="1"
-        android:layout_marginBottom="78dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:layout_constraintBottom_toBottomOf="@+id/textView21"
-        app:layout_constraintTop_toTopOf="@+id/textView19"
-        app:layout_constraintHorizontal_bias="0.507" />
-
-    <TextView
-        android:id="@+id/textView21"
-        android:layout_width="0dp"
-        android:layout_height="56dp"
-        android:text="@string/about_feedback"
-        android:textSize="16dp"
-        android:textStyle="italic"
-        android:gravity="left"
-        tools:layout_constraintTop_creator="1"
-        tools:layout_constraintRight_creator="1"
-        android:layout_marginStart="33dp"
-        android:layout_marginEnd="33dp"
-        app:layout_constraintRight_toRightOf="parent"
-        android:layout_marginTop="208dp"
-        tools:layout_constraintLeft_creator="1"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView22"
-        android:layout_width="0dp"
-        android:layout_height="35dp"
-        android:text="Rate Us"
-        android:textSize="20dp"
-        android:textStyle="bold"
-        android:gravity="left"
-        tools:layout_constraintTop_creator="1"
-        tools:layout_constraintRight_creator="1"
-        tools:layout_constraintBottom_creator="1"
-        android:layout_marginStart="33dp"
-        android:layout_marginEnd="33dp"
-        app:layout_constraintRight_toRightOf="parent"
-        android:layout_marginTop="79dp"
-        tools:layout_constraintLeft_creator="1"
-        android:layout_marginBottom="80dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:layout_constraintBottom_toBottomOf="@+id/textView23"
-        app:layout_constraintTop_toTopOf="@+id/textView21" />
-
-    <TextView
-        android:id="@+id/textView23"
-        android:layout_width="0dp"
-        android:layout_height="61dp"
-        android:text="@string/about_rateUs"
-        android:textSize="16dp"
-        android:textStyle="italic"
-        android:gravity="left"
-        tools:layout_constraintRight_creator="1"
-        tools:layout_constraintBottom_creator="1"
-        app:layout_constraintBottom_toTopOf="@+id/button4"
-        android:layout_marginStart="33dp"
-        android:layout_marginEnd="33dp"
-        app:layout_constraintRight_toRightOf="parent"
-        tools:layout_constraintLeft_creator="1"
-        android:layout_marginBottom="33dp"
-        app:layout_constraintLeft_toLeftOf="parent" />
-
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="BACK"
-        android:textSize="20dp"
-        android:textStyle="bold"
-        android:gravity="center"
-        tools:layout_constraintRight_creator="1"
-        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginEnd="8dp"
         app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="8dp"
         tools:layout_constraintLeft_creator="1"
-        android:layout_marginBottom="28dp"
+        android:layout_marginBottom="8dp"
         app:layout_constraintLeft_toLeftOf="parent"
-        android:onClick="onClick"/>
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:gravity="left"
+                android:text="About Us"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="7dp"
+                />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:text="@string/about_aboutFeature"
+                android:textSize="16dp"
+                android:textStyle="italic"
+                android:gravity="left"
+                android:layout_marginBottom="@dimen/fab_margin"
+                />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:text="Feedback"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="left"
+                android:layout_marginBottom="7dp"
+                />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="56dp"
+                android:text="@string/about_feedback"
+                android:textSize="16dp"
+                android:textStyle="italic"
+                android:gravity="left"
+                android:layout_marginBottom="@dimen/fab_margin"
+                />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:text="Rate Us"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="left"
+                android:layout_marginBottom="7dp"
+                />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="wrap_content"
+                android:layout_height="61dp"
+                android:text="@string/about_rateUs"
+                android:textSize="16dp"
+                android:textStyle="italic"
+                android:gravity="left"
+                android:layout_marginBottom="@dimen/fab_margin"
+                />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BACK"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:onClick="onClick"/>
+
+        </LinearLayout>
+    </ScrollView>
+
 </android.support.constraint.ConstraintLayout>
