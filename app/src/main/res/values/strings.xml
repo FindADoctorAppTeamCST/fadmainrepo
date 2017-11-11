@@ -65,5 +65,8 @@
     <string name="queueapp">QueueApp</string>
     <string name="related_apps_for_jdwnrh">Related Apps for JDWNRH</string>
     <string name="mhgapp">mhGApp</string>
+    <string name="enter_feedback">Enter Your Feedback / Complaint Here</string>
+    <string name="dial">Contact Us</string>
+    <string name="cont_det">Tap to Call</string>
 
 </resources>

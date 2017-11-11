@@ -6,19 +6,38 @@
     android:layout_height="match_parent"
     tools:context="bt.gov.jdwnrh.www.findadoctor.Feedback">
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/ideditTxt"
-        />
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/ideditTxt"
-        android:layout_centerHorizontal="true"
-
         android:onClick="SubmitFeedback"
-        android:text="Submit" />
+        android:text="Submit"
+        android:textAllCaps="false"
+        android:layout_below="@+id/feedbackSpace"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:background="@android:color/holo_blue_light"
+        android:textColor="@android:color/white"/>
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="@dimen/gridImageSize"
+        android:layout_height="@dimen/gridImageSize"
+        app:srcCompat="@android:drawable/ic_menu_edit"
+        android:layout_above="@+id/feedbackSpace"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="21dp" />
+
+    <EditText
+        android:id="@+id/feedbackSpace"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:layout_margin="@dimen/fab_margin"
+        android:inputType="textMultiLine"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/enter_feedback"
+        android:textColorHint="@color/hintColor"/>
 
 </RelativeLayout>
