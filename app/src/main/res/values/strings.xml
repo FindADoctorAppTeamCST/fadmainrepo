@@ -2,7 +2,6 @@
     <string name="app_name">Find A Doctor</string>
 
     <string name="action_settings">Settings</string>
-
     <string name="searchPlaceholder">Search for Doctors</string>
     <string name="lanes">Anesthesiologist</string>
     <string name="lcard">Cardiologist</string>
@@ -23,10 +22,10 @@
     <string name="login">Log In</string>
     <string name="help">Help</string>
     <string name="notif">Notification</string>
-    <string name="more">More</string>
+    <string name="moreapps">More Apps</string>
     <string name="share_app">Share App</string>
-    <string name="rate_app">Rate Us</string>
-    <string name="about_us">About Us</string>
+    <string name="rate_app">Rate App</string>
+    <string name="about_us">About</string>
     <string name="feedback">Feedback</string>
 
     <string name="about_us_title">Jigme Dorji Wangchuck National Referral Hospital, Thimphu.</string>
@@ -41,8 +40,26 @@
 
 
     <string name="help_feature"> User Manual </string>
-    <string name="search_button">This button helps user to search the app entering doctors specialization or by name.</string>
+    <string name="about_search">This button helps user to search the app entering doctors specialization or by name.</string>
 
+    <string name="about_login">Doctors need to enter their credentials to update their status.</string>
+    <string name="about_newsfeed">This feature provides information and alert the users about the latest outbreak of dieases and updates the important messages. </string>
+
+    <string name="about_setting">This feature contain list of options such as Login,Help,Share app,About us,Feedback and Rate us </string>
+    <string name="about_help">This feature provides user manual for the app users to giude them when they encounter the problems..</string>
+    <string name="about_shareApp">This section of setting is to suggest the users to share app to social media if it is found very useful and productive.</string>
+
+    <string name="about_aboutFeature">This section of the setting is to make users know more about the app and their functionlity.</string>
+    <string name="about_feedback"> This feature provides the platform for users to comments and give feedback for the betterment of the App.</string>
+    <string name="about_rateUs">This section is to rate the App according to the services facilated by the app to the users.</string>
+    <string name="back">BACK</string>
+    <string name="tg">Help feature</string>
+    <string name="next">NEXT</string>
+    <string name="setting_feature">Setting feature</string>
     <string name="login_button">This provides an Admin and doctors to enter their credentials to update their status.</string>
+    <string name="hosp_image_desc">Hospital Image</string>
+    <string name="enter_feedback">Enter Your Feedback / Complaint Here</string>
+    <string name="dial">Contact Us</string>
+    <string name="cont_det">Tap to Call</string>
 
 </resources>

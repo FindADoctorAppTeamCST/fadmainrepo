@@ -10,12 +10,9 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class   MainActivity extends AppCompatActivity {
-
-
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,8 +25,9 @@ public class   MainActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                /*Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                        .setAction("Action", null).show();*/
+                startActivity(new Intent(getApplication(),Dialler.class));
             }
         });
     }
@@ -49,20 +47,45 @@ public class   MainActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
+        if (id == R.id.news) {
+            startActivity(new Intent(getApplication(), Notification.class));
+            return true;
+        }
+
         if (id == R.id.login) {
+            startActivity(new Intent(getApplication(), doc_login.class));
+            return true;
+        }
+
+        if(id == R.id.about_us) {
+            startActivity(new Intent(getApplication(), AboutUs.class));
+            return true;
+        }
+
+        if(id == R.id.help) {
+            startActivity(new Intent(getApplication(), Help.class));
+            return true;
+        }
+
+        if(id == R.id.feedback) {
+            startActivity(new Intent(getApplication(), Feedback.class));
+            return true;
+        }
+
+        if(id == R.id.rate_app) {
+            startActivity(new Intent(getApplication(), RateUs.class));
+            return true;
+        }
+
+        if(id == R.id.share_app) {
+            startActivity(new Intent(getApplication(), ShareApp.class));
+            return true;
+        }
+
+        if(id == R.id.more) {
             return true;
         }
 
         return super.onOptionsItemSelected(item);
-    }
-    //changing page RateUs
-    public void Click(View view){
-        Intent intent=new Intent(this,RateUs.class);
-        startActivity(intent);
-    }
-    //changing page Feedback
-    public void onBtnClick(View view){
-        Intent intent=new Intent(this,Feedback.class);
-        startActivity(intent);
     }
 }
