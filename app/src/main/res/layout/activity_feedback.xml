@@ -21,12 +21,12 @@
 
     <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@mipmap/jdwnrh_logo"
-        android:layout_marginTop="50dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_width="@dimen/gridImageSize"
+        android:layout_height="@dimen/gridImageSize"
+        app:srcCompat="@android:drawable/ic_menu_edit"
+        android:layout_above="@+id/feedbackSpace"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="21dp" />
 
     <EditText
         android:id="@+id/feedbackSpace"

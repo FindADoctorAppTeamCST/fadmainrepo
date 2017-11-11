@@ -77,6 +77,7 @@ public class   MainActivity extends AppCompatActivity {
         }
 
         if(id == R.id.share_app) {
+            startActivity(new Intent(getApplication(), ShareApp.class));
             return true;
         }
 

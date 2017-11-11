@@ -35,9 +35,6 @@
             -->
         </activity>
 
-
-
-
         <activity android:name=".Help"
             android:label="@string/help">
             <intent-filter>
@@ -70,6 +67,7 @@
             </intent-filter>
         </activity>
 
+
         <activity android:name=".Feedback"
             android:label="Feedback"
             android:icon="@android:drawable/ic_menu_edit">
@@ -96,6 +94,13 @@
 
         <activity android:name=".Notification"
             android:label="@string/notif">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ShareApp"
+            android:label="@string/share_app">
             <intent-filter>
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
