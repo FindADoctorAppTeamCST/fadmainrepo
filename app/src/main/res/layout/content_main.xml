@@ -9,6 +9,8 @@
     tools:showIn="@layout/activity_main">
 
     <EditText
+
+
         android:id="@+id/searchBox"
         android:layout_width="0dp"
         android:layout_height="50dp"
@@ -26,7 +28,10 @@
         tools:layout_constraintRight_creator="1"
         android:layout_marginStart="28dp"
         android:layout_marginEnd="28dp"
-        tools:layout_constraintLeft_creator="1" />
+        tools:layout_constraintLeft_creator="1"
+
+        />
+
 
     <ScrollView
         android:layout_width="0dp"
