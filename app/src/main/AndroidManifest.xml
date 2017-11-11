@@ -9,7 +9,6 @@
         android:roundIcon="@mipmap/jdwnrh_logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
         <activity
             android:name=".SplashActivity"
             android:theme="@style/SplashTheme">
@@ -19,12 +18,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".MainActivity"
+            android:icon="@drawable/jdwnrh_logo"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:icon="@drawable/jdwnrh_logo">
+            android:theme="@style/AppTheme.NoActionBar">
 
             <!--
                 <intent-filter>
@@ -34,76 +32,81 @@
             </intent-filter>
             -->
         </activity>
-
-        <activity android:name=".Help"
+        <activity
+            android:name=".Help"
             android:label="@string/help">
             <intent-filter>
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".setting"
-            android:label="@string/help">
-
-        </activity>
-        <activity android:name=".feature"
-            android:label="@string/help">
-            <intent-filter>
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".More"
+        <activity
+            android:name=".setting"
+            android:label="@string/help"></activity>
+        <activity
+            android:name=".feature"
             android:label="@string/help">
             <intent-filter>
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".AboutUs"
-            android:label="About"
-            android:icon="@android:drawable/ic_dialog_info">
+        <activity
+            android:name=".More"
+            android:label="@string/help">
             <intent-filter>
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
-
-        <activity android:name=".Feedback"
-            android:label="Feedback"
-            android:icon="@android:drawable/ic_menu_edit">
+        <activity
+            android:name=".AboutUs"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:label="About">
             <intent-filter>
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".RateUs"
-            android:label="@string/rate_app"
-            android:icon="@android:drawable/star_big_off">
+        <activity
+            android:name=".Feedback"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:label="Feedback">
             <intent-filter>
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".doc_login"
-            android:label="@string/login"
-            android:icon="@android:drawable/ic_lock_lock">
+        <activity
+            android:name=".RateUs"
+            android:icon="@android:drawable/star_big_off"
+            android:label="@string/rate_app">
             <intent-filter>
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".Notification"
+        <activity
+            android:name=".doc_login"
+            android:icon="@android:drawable/ic_lock_lock"
+            android:label="@string/login">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Notification"
             android:label="@string/notif">
             <intent-filter>
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".ShareApp"
+        <activity
+            android:name=".ShareApp"
             android:label="@string/share_app">
             <intent-filter>
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".Dialler"
+            android:label="@string/dial">
+
+        </activity>
     </application>
+
 </manifest>

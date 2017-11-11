@@ -59,6 +59,7 @@
     <string name="login_button">This provides an Admin and doctors to enter their credentials to update their status.</string>
     <string name="hosp_image_desc">Hospital Image</string>
     <string name="enter_feedback">Enter Your Feedback / Complaint Here</string>
-
+    <string name="dial">Contact Us</string>
+    <string name="cont_det">Tap to Call</string>
 
 </resources>

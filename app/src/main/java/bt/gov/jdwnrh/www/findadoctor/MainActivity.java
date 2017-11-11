@@ -25,8 +25,9 @@ public class   MainActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                /*Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                        .setAction("Action", null).show();*/
+                startActivity(new Intent(getApplication(),Dialler.class));
             }
         });
     }
@@ -86,15 +87,5 @@ public class   MainActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
-    }
-    //changing page RateUs
-    public void Click(View view){
-        Intent intent=new Intent(this,RateUs.class);
-        startActivity(intent);
-    }
-    //changing page Feedback
-    public void onBtnClick(View view){
-        Intent intent=new Intent(this,Feedback.class);
-        startActivity(intent);
     }
 }
