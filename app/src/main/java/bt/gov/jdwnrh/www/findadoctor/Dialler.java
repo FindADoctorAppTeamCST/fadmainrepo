@@ -20,4 +20,9 @@ public class Dialler extends AppCompatActivity {
         intent.setData(Uri.parse("tel:"+num1));
         startActivity(intent);
     }
+
+    public void play(View view) {
+        Intent intent = new Intent(Intent.ACTION_VIEW,Uri.parse("https://play.google.com/store/apps/details?id=com.facebook.katana&hl=en"));
+        startActivity(intent);
+    }
 }
