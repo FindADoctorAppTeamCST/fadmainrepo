@@ -16,10 +16,45 @@ public class ShareApp extends AppCompatActivity {
     public void facebookShare(View v) {
         Intent share=new Intent(Intent.ACTION_SEND);
         share.setType("text/plain");
-        uriString="http://www.jdwnrh.gov.bt";
+        uriString="https://play.google.com/store/apps/details?id=com.g2c.jdw&hl=en";
         share.putExtra(Intent.EXTRA_TEXT,uriString);
         share.setPackage("com.facebook.katana");
         startActivity(share);
     }
 
+    public void messShare(View v) {
+        Intent share=new Intent(Intent.ACTION_SEND);
+        share.setType("text/plain");
+        uriString="https://play.google.com/store/apps/details?id=com.g2c.jdw&hl=en";
+        share.putExtra(Intent.EXTRA_TEXT,uriString);
+        share.setPackage("com.facebook.orca");
+        startActivity(share);
+    }
+
+    public void googleShare(View v) {
+        Intent share=new Intent(Intent.ACTION_SEND);
+        share.setType("text/plain");
+        uriString="https://play.google.com/store/apps/details?id=com.g2c.jdw&hl=en";
+        share.putExtra(Intent.EXTRA_TEXT,uriString);
+        share.setPackage("com.google.android.apps.plus");
+        startActivity(share);
+    }
+
+    public void hangoutsShare(View v) {
+        Intent share=new Intent(Intent.ACTION_SEND);
+        share.setType("text/plain");
+        uriString="https://play.google.com/store/apps/details?id=com.g2c.jdw&hl=en";
+        share.putExtra(Intent.EXTRA_TEXT,uriString);
+        share.setPackage("com.google.android.talk");
+        startActivity(share);
+    }
+
+    public void whatsappShare(View v) {
+        Intent share=new Intent(Intent.ACTION_SEND);
+        share.setType("text/plain");
+        uriString="https://play.google.com/store/apps/details?id=com.g2c.jdw&hl=en";
+        share.putExtra(Intent.EXTRA_TEXT,uriString);
+        share.setPackage("com.whatsapp");
+        startActivity(share);
+    }
 }

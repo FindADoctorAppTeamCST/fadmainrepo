@@ -71,5 +71,7 @@
     <string name="enter_feedback">Enter Your Feedback / Complaint Here</string>
     <string name="dial">Contact Us</string>
     <string name="cont_det">Tap to Call</string>
+    <string name="more_app">More Apps</string>
+
 
 </resources>

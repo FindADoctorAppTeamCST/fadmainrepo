@@ -8,103 +8,76 @@
     tools:layout_editor_absoluteY="81dp"
     tools:layout_editor_absoluteX="0dp">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="157dp"
-        android:layout_height="133dp"
-        app:srcCompat="@mipmap/doctor_login"
-        tools:layout_constraintTop_creator="1"
-        tools:layout_constraintRight_creator="1"
-        app:layout_constraintRight_toRightOf="parent"
-        android:layout_marginTop="57dp"
-        tools:layout_constraintLeft_creator="1"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="56dp"
-        android:layout_height="58dp"
-        app:srcCompat="@mipmap/jdwnrh_logo"
-        tools:layout_constraintTop_creator="1"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        tools:layout_constraintLeft_creator="1"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView3"
+    <ScrollView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@mipmap/line"
         tools:layout_constraintTop_creator="1"
-        android:layout_marginTop="151dp"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="parent"
         tools:layout_constraintLeft_creator="1"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent">
 
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="0dp"
-        android:layout_height="173dp"
-        app:srcCompat="@mipmap/login_box"
-        android:layout_marginStart="45dp"
-        android:layout_marginEnd="45dp"
-        tools:layout_constraintTop_creator="1"
-        tools:layout_constraintRight_creator="1"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3"
-        tools:layout_constraintLeft_creator="1"
-        app:layout_constraintLeft_toLeftOf="parent" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/fab_margin">
 
-    <EditText
-        android:id="@+id/editText3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="Password"
-        android:inputType="textPassword"
-        android:visibility="visible"
-        tools:layout_constraintRight_creator="1"
-        tools:layout_constraintBottom_creator="1"
-        app:layout_constraintBottom_toTopOf="@+id/button"
-        app:layout_constraintRight_toRightOf="@+id/editText4"
-        tools:layout_constraintLeft_creator="1"
-        android:layout_marginBottom="8dp"
-        app:layout_constraintLeft_toLeftOf="@+id/editText4" />
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="157dp"
+                android:layout_height="133dp"
+                app:srcCompat="@mipmap/doctor_login" />
 
-    <EditText
-        android:id="@+id/editText4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:allowUndo="false"
-        android:color="#ffffff"
-        android:ems="10"
-        android:hint="ID"
-        android:inputType="textEmailAddress"
-        android:radius="10dp"
-        android:selectAllOnFocus="false"
-        android:shape="rectangle"
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@mipmap/line" />
 
-        tools:layout_constraintRight_creator="1"
-        tools:layout_constraintBottom_creator="1"
-        app:layout_constraintBottom_toTopOf="@+id/editText3"
-        app:layout_constraintRight_toRightOf="parent"
-        tools:layout_constraintLeft_creator="1"
-        app:layout_constraintLeft_toLeftOf="parent" />
+            <EditText
+                android:id="@+id/editText4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:allowUndo="false"
+                android:color="#ffffff"
+                android:ems="10"
+                android:hint="ID"
+                android:inputType="textEmailAddress"
+                android:radius="10dp"
+                android:selectAllOnFocus="false"
+                android:shape="rectangle"
+                android:layout_marginBottom="5dp"
+                />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="94dp"
-        android:layout_height="48dp"
-        android:text="login"
-        android:background="#2092EA"
-        tools:layout_constraintRight_creator="1"
-        tools:layout_constraintBottom_creator="1"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView4"
-        app:layout_constraintRight_toRightOf="parent"
-        tools:layout_constraintLeft_creator="1"
-        android:layout_marginBottom="13dp"
-        app:layout_constraintLeft_toLeftOf="parent" />
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:visibility="visible"
+                android:layout_marginBottom="10dp"
+                />
+
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="94dp"
+                android:layout_height="48dp"
+                android:background="#2092EA"
+                android:text="Log in"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+        </LinearLayout>
+    </ScrollView>
 </android.support.constraint.ConstraintLayout>
