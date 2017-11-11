@@ -21,95 +21,66 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="56dp"
-        android:layout_height="58dp"
-        app:srcCompat="@mipmap/jdwnrh_logo"
-        tools:layout_constraintTop_creator="1"
-        tools:layout_constraintRight_creator="1"
-        tools:layout_constraintBottom_creator="1"
-        app:layout_constraintBottom_toBottomOf="@+id/editText4"
-        app:layout_constraintRight_toRightOf="parent"
-        android:layout_marginTop="89dp"
-        tools:layout_constraintLeft_creator="1"
-        android:layout_marginBottom="74dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView3" />
-
-    <ImageView
         android:id="@+id/imageView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@mipmap/line"
         tools:layout_constraintTop_creator="1"
-        android:layout_marginTop="122dp"
+        android:layout_marginTop="131dp"
         tools:layout_constraintLeft_creator="1"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="0dp"
-        android:layout_height="173dp"
-        app:srcCompat="@mipmap/login_box"
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         tools:layout_constraintTop_creator="1"
         tools:layout_constraintRight_creator="1"
-        tools:layout_constraintBottom_creator="1"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        android:layout_marginTop="67dp"
+        android:layout_marginTop="13dp"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
         tools:layout_constraintLeft_creator="1"
-        android:layout_marginBottom="60dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView2" />
+        app:layout_constraintLeft_toLeftOf="parent">
 
-    <EditText
-        android:id="@+id/editText3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="Password"
-        android:inputType="textPassword"
-        android:visibility="visible"
-        tools:layout_constraintRight_creator="1"
-        tools:layout_constraintBottom_creator="1"
-        app:layout_constraintBottom_toTopOf="@+id/button"
-        app:layout_constraintRight_toRightOf="@+id/editText4"
-        tools:layout_constraintLeft_creator="1"
-        android:layout_marginBottom="7dp"
-        app:layout_constraintLeft_toLeftOf="@+id/editText4" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-    <EditText
-        android:id="@+id/editText4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:allowUndo="false"
-        android:color="#ffffff"
-        android:ems="10"
-        android:hint="ID"
-        android:inputType="textEmailAddress"
-        android:radius="10dp"
-        android:selectAllOnFocus="false"
-        android:shape="rectangle"
+            <EditText
+                android:id="@+id/editText4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:allowUndo="false"
+                android:color="#ffffff"
+                android:ems="10"
+                android:hint="ID"
+                android:inputType="textEmailAddress"
+                android:radius="10dp"
+                android:selectAllOnFocus="false"
+                android:shape="rectangle"
+                android:layout_marginBottom="5dp"/>
 
-        tools:layout_constraintRight_creator="1"
-        tools:layout_constraintBottom_creator="1"
-        app:layout_constraintBottom_toTopOf="@+id/editText3"
-        app:layout_constraintRight_toRightOf="parent"
-        tools:layout_constraintLeft_creator="1"
-        app:layout_constraintLeft_toLeftOf="parent" />
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:visibility="visible"
+                android:layout_marginBottom="10dp"
+                />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="94dp"
-        android:layout_height="48dp"
-        android:text="login"
-        android:background="#2092EA"
-        tools:layout_constraintRight_creator="1"
-        tools:layout_constraintBottom_creator="1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        tools:layout_constraintLeft_creator="1"
-        android:layout_marginBottom="70dp"
-        app:layout_constraintLeft_toLeftOf="parent" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="94dp"
+                android:layout_height="48dp"
+                android:background="#2092EA"
+                android:text="Log in"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"/>
+        </LinearLayout>
+    </ScrollView>
 </android.support.constraint.ConstraintLayout>
