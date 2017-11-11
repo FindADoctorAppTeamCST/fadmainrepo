@@ -56,7 +56,7 @@
         <activity
             android:name=".More"
             android:parentActivityName=".MainActivity"
-            android:label="@string/help">
+            android:label="@string/more_app">
             <intent-filter>
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
