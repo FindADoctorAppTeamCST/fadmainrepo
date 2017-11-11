@@ -34,6 +34,7 @@
         </activity>
         <activity
             android:name=".Help"
+            android:parentActivityName=".MainActivity"
             android:label="@string/help">
             <intent-filter>
                 <category android:name="android.intent.category.DEFAULT" />
@@ -41,9 +42,11 @@
         </activity>
         <activity
             android:name=".setting"
+            android:parentActivityName=".MainActivity"
             android:label="@string/help"></activity>
         <activity
             android:name=".feature"
+            android:parentActivityName=".MainActivity"
             android:label="@string/help">
             <intent-filter>
                 <category android:name="android.intent.category.DEFAULT" />
@@ -51,6 +54,7 @@
         </activity>
         <activity
             android:name=".More"
+            android:parentActivityName=".MainActivity"
             android:label="@string/help">
             <intent-filter>
                 <category android:name="android.intent.category.DEFAULT" />
@@ -58,6 +62,7 @@
         </activity>
         <activity
             android:name=".AboutUs"
+            android:parentActivityName=".MainActivity"
             android:icon="@android:drawable/ic_dialog_info"
             android:label="About">
             <intent-filter>
@@ -66,6 +71,7 @@
         </activity>
         <activity
             android:name=".Feedback"
+            android:parentActivityName=".MainActivity"
             android:icon="@android:drawable/ic_menu_edit"
             android:label="Feedback">
             <intent-filter>
@@ -74,6 +80,7 @@
         </activity>
         <activity
             android:name=".RateUs"
+            android:parentActivityName=".MainActivity"
             android:icon="@android:drawable/star_big_off"
             android:label="@string/rate_app">
             <intent-filter>
@@ -82,6 +89,7 @@
         </activity>
         <activity
             android:name=".doc_login"
+            android:parentActivityName=".MainActivity"
             android:icon="@android:drawable/ic_lock_lock"
             android:label="@string/login">
             <intent-filter>
@@ -90,6 +98,7 @@
         </activity>
         <activity
             android:name=".Notification"
+            android:parentActivityName=".MainActivity"
             android:label="@string/notif">
             <intent-filter>
                 <category android:name="android.intent.category.DEFAULT" />
@@ -97,15 +106,17 @@
         </activity>
         <activity
             android:name=".ShareApp"
+            android:parentActivityName=".MainActivity"
             android:label="@string/share_app">
+
             <intent-filter>
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
 
         <activity android:name=".Dialler"
+            android:parentActivityName=".MainActivity"
             android:label="@string/dial">
-
         </activity>
     </application>
 
