@@ -83,6 +83,7 @@ public class   MainActivity extends AppCompatActivity {
         }
 
         if(id == R.id.more) {
+            startActivity(new Intent(getApplication(), More.class));
             return true;
         }
 
