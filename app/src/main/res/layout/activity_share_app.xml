@@ -81,7 +81,8 @@
                     android:textAllCaps="false"
                     android:textColor="@android:color/white"
                     android:topLeftRadius="50dp"
-                    android:topRightRadius="50dp" />
+                    android:topRightRadius="50dp"
+                    android:onClick="facebookShare"/>
             </TableRow>
 
             <TableRow
@@ -164,7 +165,7 @@
                     android:id="@+id/mess"
                     android:layout_width="61dp"
                     android:layout_height="45dp"
-                    app:srcCompat="@mipmap/message" />
+                    app:srcCompat="@mipmap/Message" />
 
                 <Button
                     android:id="@+id/button5"
