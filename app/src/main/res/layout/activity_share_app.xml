@@ -173,7 +173,6 @@
                     android:layout_width="61dp"
                     android:layout_height="45dp"
                     app:srcCompat="@mipmap/whatsapp" />
-
                 <Button
                     android:id="@+id/button5"
                     android:layout_width="0dp"
