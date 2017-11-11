@@ -6,6 +6,38 @@
     android:layout_height="match_parent"
     tools:context="bt.gov.jdwnrh.www.findadoctor.setting">
 
+    <Button
+        android:id="@+id/bt2"
+        android:layout_width="88dp"
+        android:layout_height="48dp"
+        android:onClick="onClick"
+        android:text="@string/back"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_margin="14dp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="@+id/bt3"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bt3" />
+
+
+    <Button
+        android:id="@+id/bt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:onClick="onClick"
+        android:text="@string/next"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="69dp" />
+
     <ScrollView
         android:layout_width="0dp"
         android:layout_height="0dp"
@@ -21,8 +53,7 @@
         tools:layout_constraintBottom_creator="1"
         tools:layout_constraintLeft_creator="1"
         tools:layout_constraintRight_creator="1"
-        tools:layout_constraintTop_creator="1"
-        app:layout_constraintHorizontal_bias="1.0">
+        tools:layout_constraintTop_creator="1">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -43,8 +74,8 @@
             <TextView
                 android:id="@+id/textView13"
                 android:layout_width="wrap_content"
-                android:layout_height="57dp"
-                android:layout_marginBottom="@dimen/fab_margin"
+                android:layout_height="65dp"
+                android:layout_marginBottom="16dp"
                 android:gravity="left"
                 android:text="@string/about_setting"
                 android:textSize="16sp"
@@ -87,8 +118,8 @@
             <TextView
                 android:id="@+id/textView17"
                 android:layout_width="wrap_content"
-                android:layout_height="59dp"
-                android:layout_marginBottom="@dimen/fab_margin"
+                android:layout_height="65dp"
+                android:layout_marginBottom="20dp"
                 android:gravity="left"
                 android:text="@string/about_shareApp"
                 android:textSize="16sp"
@@ -98,35 +129,4 @@
 
         </LinearLayout>
     </ScrollView>
-    <Button
-        android:id="@+id/bt2"
-        android:layout_width="88dp"
-        android:layout_height="48dp"
-        android:onClick="onClick"
-        android:text="@string/back"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        android:layout_margin="14dp"
-        tools:layout_constraintTop_creator="1"
-        tools:layout_constraintBottom_creator="1"
-        app:layout_constraintBottom_toBottomOf="@+id/bt3"
-        tools:layout_constraintLeft_creator="1"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/bt3" />
-
-
-    <Button
-        android:id="@+id/bt3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="16dp"
-        android:onClick="onClick"
-        android:text="@string/next"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        tools:layout_constraintRight_creator="1"
-        tools:layout_constraintBottom_creator="1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        android:layout_marginBottom="69dp" />
 </android.support.constraint.ConstraintLayout>
