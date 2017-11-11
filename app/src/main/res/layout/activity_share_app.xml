@@ -165,7 +165,7 @@
                     android:id="@+id/mess"
                     android:layout_width="61dp"
                     android:layout_height="45dp"
-                    app:srcCompat="@mipmap/Message" />
+                    app:srcCompat="@mipmap/message" />
 
                 <Button
                     android:id="@+id/button5"
