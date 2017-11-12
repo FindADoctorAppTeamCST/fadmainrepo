@@ -4,12 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="bt.gov.jdwnrh.www.findadoctor.setting">
+    tools:context="bt.gov.jdwnrh.www.findadoctor.setting"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
 
     <Button
         android:id="@+id/bt2"
         android:layout_width="88dp"
         android:layout_height="48dp"
+        android:hapticFeedbackEnabled="false"
         android:onClick="onClick"
         android:text="@string/back"
         android:textSize="18sp"
@@ -18,6 +21,7 @@
         android:gravity="end"
         tools:layout_constraintTop_creator="1"
         tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="16dp"
         app:layout_constraintBottom_toBottomOf="@+id/bt3"
         tools:layout_constraintLeft_creator="1"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -37,24 +41,20 @@
         tools:layout_constraintBottom_creator="1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        android:layout_marginBottom="69dp" />
+        android:layout_marginBottom="52dp" />
 
     <ScrollView
         android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        tools:layout_constraintBottom_creator="1"
-        tools:layout_constraintLeft_creator="1"
+        android:layout_height="375dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginStart="35dp"
+        tools:layout_constraintTop_creator="1"
         tools:layout_constraintRight_creator="1"
-        tools:layout_constraintTop_creator="1">
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="8dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
