@@ -17,7 +17,6 @@
         android:text="@string/back"
         android:textSize="18sp"
         android:textStyle="bold"
-        android:layout_margin="14dp"
         android:gravity="end"
         tools:layout_constraintTop_creator="1"
         tools:layout_constraintBottom_creator="1"
@@ -37,29 +36,35 @@
         android:textSize="18sp"
         android:textStyle="bold"
         android:gravity="end"
+        android:layout_marginEnd="16dp"
         tools:layout_constraintRight_creator="1"
         tools:layout_constraintBottom_creator="1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        android:layout_marginBottom="52dp" />
+        android:layout_marginBottom="41dp" />
 
     <ScrollView
+        android:id="@+id/scrollView2"
         android:layout_width="0dp"
-        android:layout_height="375dp"
-        android:layout_marginEnd="35dp"
-        android:layout_marginStart="35dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="10dp"
         tools:layout_constraintTop_creator="1"
         tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/bt2"
+        android:layout_marginEnd="10dp"
         app:layout_constraintRight_toRightOf="parent"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="16dp"
         tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="30dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:weightSum="1">
 
             <TextView
                 android:id="@+id/textView9"
@@ -75,7 +80,7 @@
             <TextView
                 android:id="@+id/textView13"
                 android:layout_width="wrap_content"
-                android:layout_height="65dp"
+                android:layout_height="62dp"
                 android:layout_marginBottom="16dp"
                 android:gravity="left"
                 android:text="@string/about_setting"
@@ -119,13 +124,12 @@
             <TextView
                 android:id="@+id/textView17"
                 android:layout_width="wrap_content"
-                android:layout_height="65dp"
+                android:layout_height="71dp"
                 android:layout_marginBottom="20dp"
                 android:gravity="left"
                 android:text="@string/about_shareApp"
                 android:textSize="16sp"
-                android:textStyle="italic"
-                tools:ignore="RtlHardcoded" />
+                android:textStyle="italic" />
 
 
         </LinearLayout>
