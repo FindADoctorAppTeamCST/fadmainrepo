@@ -9,8 +9,6 @@
     tools:showIn="@layout/activity_main">
 
     <EditText
-
-
         android:id="@+id/searchBox"
         android:layout_width="0dp"
         android:layout_height="50dp"
@@ -62,12 +60,13 @@
                 android:layout_gravity="center_horizontal">
 
 
-                <ImageView
+                <ImageButton
                     android:id="@+id/anes"
                     android:layout_width="@dimen/gridImageSize"
                     android:layout_height="@dimen/gridImageSize"
                     android:padding="10dp"
-                    app:srcCompat="@mipmap/anesthesiology"/>
+                    app:srcCompat="@mipmap/anesthesiology"
+                    />
 
                 <ImageView
                     android:id="@+id/card"

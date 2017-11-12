@@ -19,11 +19,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:windowSoftInputMode="stateAlwaysHidden"
             android:name=".MainActivity"
             android:icon="@drawable/jdwnrh_logo"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden">
 
             <!--
                 <intent-filter>
@@ -35,89 +35,93 @@
         </activity>
         <activity
             android:name=".Help"
-            android:parentActivityName=".MainActivity"
-            android:label="@string/help">
+            android:label="@string/help"
+            android:parentActivityName=".MainActivity">
             <intent-filter>
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
         <activity
             android:name=".setting"
-            android:parentActivityName=".MainActivity"
-            android:label="@string/help"></activity>
+            android:label="@string/help"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".feature"
-            android:parentActivityName=".MainActivity"
-            android:label="@string/help">
+            android:label="@string/help"
+            android:parentActivityName=".MainActivity">
             <intent-filter>
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
         <activity
             android:name=".More"
-            android:parentActivityName=".MainActivity"
-            android:label="@string/more_app">
+            android:label="@string/more_app"
+            android:parentActivityName=".MainActivity">
             <intent-filter>
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
         <activity
             android:name=".AboutUs"
-            android:parentActivityName=".MainActivity"
             android:icon="@android:drawable/ic_dialog_info"
-            android:label="About">
-                        <intent-filter>
+            android:label="About"
+            android:parentActivityName=".MainActivity">
+            <intent-filter>
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
         <activity
             android:name=".Feedback"
-            android:parentActivityName=".MainActivity"
             android:icon="@android:drawable/ic_menu_edit"
-            android:label="Feedback">
-                        <intent-filter>
+            android:label="Feedback"
+            android:parentActivityName=".MainActivity">
+            <intent-filter>
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
         <activity
             android:name=".RateUs"
-            android:parentActivityName=".MainActivity"
             android:icon="@android:drawable/star_big_off"
-            android:label="@string/rate_app">
+            android:label="@string/rate_app"
+            android:parentActivityName=".MainActivity">
             <intent-filter>
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
         <activity
             android:name=".doc_login"
-            android:parentActivityName=".MainActivity"
             android:icon="@android:drawable/ic_lock_lock"
-            android:label="@string/login">
+            android:label="@string/login"
+            android:parentActivityName=".MainActivity">
             <intent-filter>
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
         <activity
             android:name=".Notification"
-            android:parentActivityName=".MainActivity"
-            android:label="@string/notif">
+            android:label="@string/notif"
+            android:parentActivityName=".MainActivity">
             <intent-filter>
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
         <activity
             android:name=".ShareApp"
-            android:parentActivityName=".MainActivity"
-            android:label="@string/share_app">
-
+            android:label="@string/share_app"
+            android:parentActivityName=".MainActivity">
             <intent-filter>
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Dialler"
+            android:label="@string/dial"
+            android:parentActivityName=".MainActivity" />
 
-        <activity android:name=".Dialler"
-            android:parentActivityName=".MainActivity"
-            android:label="@string/dial">
+        <activity android:name=".Cardiologist"
+            android:label="@string/lcard"
+            android:parentActivityName=".MainActivity">
+
         </activity>
     </application>
 
