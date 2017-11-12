@@ -23,8 +23,8 @@
         app:layout_constraintLeft_toLeftOf="parent" />
 
     <ScrollView
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="366dp"
+        android:layout_height="405dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="34dp"
         android:layout_marginStart="34dp"
@@ -43,7 +43,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:weightSum="1">
+            android:weightSum="1"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp">
 
             <TextView
                 android:id="@+id/textView18"
@@ -58,8 +61,8 @@
             <TextView
                 android:id="@+id/textView19"
                 android:layout_width="wrap_content"
-                android:layout_height="65dp"
-                android:layout_marginBottom="16dp"
+                android:layout_height="85dp"
+                android:layout_marginBottom="-20dp"
                 android:layout_weight="0.25"
                 android:gravity="left"
                 android:text="@string/about_aboutFeature"
