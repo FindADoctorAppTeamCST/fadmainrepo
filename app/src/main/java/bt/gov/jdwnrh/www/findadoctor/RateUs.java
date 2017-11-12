@@ -1,5 +1,7 @@
 package bt.gov.jdwnrh.www.findadoctor;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -21,7 +23,9 @@ Button btn;
 
     public void onBtnClick(View v){
         float ratingvalue=ratingBar.getRating();
+        Intent load= new Intent (Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.g2c.jdw&hl=en"));
         Toast.makeText(getApplicationContext(),"Rating is: "+ratingvalue,Toast.LENGTH_SHORT).show();
+        startActivity(load);
 
     }
 }
