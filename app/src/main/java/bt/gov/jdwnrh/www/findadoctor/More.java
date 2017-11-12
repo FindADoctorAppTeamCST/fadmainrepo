@@ -1,5 +1,7 @@
 package bt.gov.jdwnrh.www.findadoctor;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -16,7 +18,9 @@ public class More extends AppCompatActivity {
     }
 
     public void onImageClick(View v){
-        Toast.makeText(this,"you are linking to Playstore",Toast.LENGTH_SHORT).show();
+        Intent download= new Intent (Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.g2c.jdw&hl=en"));
+        Toast.makeText(this,"You are linking to Playstore",Toast.LENGTH_SHORT).show();
+        startActivity(download);
     }
     public void onImageClickError(View v){
         Toast.makeText(this,"App development is under process by CST",Toast.LENGTH_SHORT).show();
