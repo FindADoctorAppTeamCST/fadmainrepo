@@ -83,7 +83,7 @@
                     android:layout_height="48dp"
                     android:background="@drawable/button"
                     android:onClick="facebookShare"
-                    android:text="Share n Facebook"
+                    android:text="Share On Facebook"
                     android:textAllCaps="false"
                     android:textColor="@android:color/white"
                     android:topLeftRadius="50dp"
@@ -180,7 +180,7 @@
                     android:layout_height="48dp"
                     android:background="@drawable/button2"
                     android:onClick="whatsappShare"
-                    android:text="Share On Whatsapp"
+                    android:text="Share On WhatsApp"
                     android:textAllCaps="false"
                     android:textColor="@android:color/white" />
             </TableRow>
