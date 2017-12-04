@@ -12,14 +12,13 @@ public class ShareApp extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_share_app);
     }
-
     public void facebookShare(View v) {
-        Intent share=new Intent(Intent.ACTION_SEND);
-        share.setType("text/plain");
-        uriString="https://play.google.com/store/apps/details?id=com.g2c.jdw&hl=en";
-        share.putExtra(Intent.EXTRA_TEXT,uriString);
-        share.setPackage("com.facebook.katana");
-        startActivity(share);
+            Intent share=new Intent(Intent.ACTION_SEND);
+            share.setType("text/plain");
+            uriString="https://play.google.com/store/apps/details?id=com.g2c.jdw&hl=en";
+            share.putExtra(Intent.EXTRA_TEXT,uriString);
+            share.setPackage("com.facebook.katana");
+            startActivity(share);
     }
 
     public void messShare(View v) {

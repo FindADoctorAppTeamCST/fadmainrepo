@@ -7,4 +7,6 @@
     <color name="splash_background">#000000</color>
 
     <color name="hintColor">#505050</color>
+    <color name="in">#00FF00</color>
+    <color name="out">#FF0000</color>
 </resources>

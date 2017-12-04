@@ -60,7 +60,7 @@
                 android:layout_gravity="center_horizontal">
 
 
-                <ImageButton
+                <ImageView
                     android:id="@+id/anes"
                     android:layout_width="@dimen/gridImageSize"
                     android:layout_height="@dimen/gridImageSize"

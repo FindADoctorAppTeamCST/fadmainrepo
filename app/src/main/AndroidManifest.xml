@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="bt.gov.jdwnrh.www.findadoctor">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/jdwnrh_logo"
@@ -92,7 +94,8 @@
             android:name=".doc_login"
             android:icon="@android:drawable/ic_lock_lock"
             android:label="@string/login"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName=".MainActivity"
+            android:windowSoftInputMode="stateAlwaysHidden">
             <intent-filter>
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
@@ -117,12 +120,15 @@
             android:name=".Dialler"
             android:label="@string/dial"
             android:parentActivityName=".MainActivity" />
-
-        <activity android:name=".Cardiologist"
+        <activity
+            android:name=".Cardiologist"
             android:label="@string/lcard"
-            android:parentActivityName=".MainActivity">
-
-        </activity>
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".DoctorPage"
+            android:label="Edit Profile"/>
+        <activity android:name=".Anesthesiology"
+            android:label="Anesthesiologist"
+            android:parentActivityName=".MainActivity"></activity>
     </application>
 
 </manifest>

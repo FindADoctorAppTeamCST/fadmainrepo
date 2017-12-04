@@ -19,17 +19,17 @@ import org.json.JSONObject;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Cardiologist extends AppCompatActivity {
+public class Anesthesiology extends AppCompatActivity {
     String spe_id;
     TextView nm_t,st_t;
     private RequestQueue requestQueue;
-    private static final String URL = "http://172.23.23.86/fadapp/mirror.php";
+    private static final String URL = "http://172.23.23.86/fadapp/anes.php";
     private StringRequest request;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_cardiologist);
-        spe_id="Cardiologist";
+        setContentView(R.layout.activity_anesthesiology);
+        spe_id="Anesthesiologist";
         nm_t=(TextView)findViewById(R.id.nm);
         st_t=(TextView)findViewById(R.id.st);
         requestQueue = Volley.newRequestQueue(this);
@@ -45,7 +45,7 @@ public class Cardiologist extends AppCompatActivity {
                             st_t.setTextColor(Color.parseColor("#00FF00"));
                         } else {
                             st_t.setText("OUT");
-                            st_t.setTextColor(Color.parseColor("#00FF00"));
+                            st_t.setTextColor(Color.parseColor("#FF0000"));
                         }
 
                         //Toast.makeText(getApplicationContext(),"Success",Toast.LENGTH_LONG).show();
@@ -63,7 +63,7 @@ public class Cardiologist extends AppCompatActivity {
             @Override
             protected Map<String, String> getParams() throws AuthFailureError {
                 HashMap<String, String> hashMap = new HashMap<String, String>();
-                hashMap.put("speid", spe_id);
+                hashMap.put("spid", spe_id);
                 return hashMap;
             }
         };

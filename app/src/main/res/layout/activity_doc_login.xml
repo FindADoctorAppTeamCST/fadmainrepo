@@ -73,7 +73,7 @@
                 android:background="#2092EA"
                 android:text="Log in"
                 android:textAllCaps="false"
-                android:textColor="@android:color/white"/>
+                android:textColor="@android:color/white" />
 
             <Space
                 android:layout_width="match_parent"
